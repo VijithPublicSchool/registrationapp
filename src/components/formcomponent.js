@@ -140,8 +140,9 @@ const image = css`
  }
  @media(max-width:600px){
      img{
-        height: 12%;
+        height: 7%;
         margin-top: 33%;
+        object-fit: contain;
      }
  }
 `
